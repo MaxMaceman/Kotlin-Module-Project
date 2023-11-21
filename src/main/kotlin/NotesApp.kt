@@ -47,8 +47,7 @@ class NotesApp {
         println(note.content)
         println("1. Вернуться")
         val choice = readInput("Введите 1, чтобы вернуться: ")
-        if (choice == 1) return
-        else println("Ошибка: Выбраный пункт отсутствует.\n")
+        if (choice == 1) return else println("Ошибка: Выбраный пункт отсутствует.\n")
     }
 
     fun exit() {
